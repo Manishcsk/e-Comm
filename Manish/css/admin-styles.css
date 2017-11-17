@@ -1,0 +1,9 @@
+.btn{
+	border-radius: 0px;
+	
+}
+.table-head {
+	background: #d9534f;
+	color: white;
+	border-bottom: 4px solid black;
+}

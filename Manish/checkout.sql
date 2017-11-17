@@ -1,0 +1,60 @@
+-- phpMyAdmin SQL Dump
+-- version 4.1.14
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Nov 02, 2017 at 07:02 PM
+-- Server version: 5.6.17
+-- PHP Version: 5.5.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `online_shopping`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `checkout`
+--
+
+CREATE TABLE IF NOT EXISTS `checkout` (
+  `chk_id` int(11) NOT NULL AUTO_INCREMENT,
+  `chk_prod` int(11) NOT NULL,
+  `chk_ref` text NOT NULL,
+  `chk_timing` datetime NOT NULL,
+  `chk_qty` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`chk_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=71 ;
+
+--
+-- Dumping data for table `checkout`
+--
+
+INSERT INTO `checkout` (`chk_id`, `chk_prod`, `chk_ref`, `chk_timing`, `chk_qty`) VALUES
+(1, 0, '2017-07-28 06:27:40_2017119232', '2017-07-28 06:27:40', 3),
+(41, 3, '2017-07-28 06:27:59_986936382', '2017-07-29 06:22:48', 3),
+(53, 2, '2017-07-28 06:27:59_986936382', '2017-07-29 06:43:58', 1),
+(54, 4, '2017-07-28 06:27:59_986936382', '2017-07-29 06:50:04', 1),
+(58, 4, '2017-07-30 11:51:14_770331751', '2017-07-30 11:51:14', 1),
+(59, 2, '2017-07-30 11:51:14_770331751', '2017-07-30 11:51:31', 12),
+(60, 4, '2017-08-02 07:12:55_723181847', '2017-08-02 07:12:55', 10),
+(61, 2, '2017-08-03 08:31:50_411839896', '2017-08-03 08:31:50', 1),
+(63, 2, '2017-08-14 09:24:56_14058940', '2017-08-14 09:26:46', 1),
+(65, 17, '2017-08-14 09:24:56_14058940', '2017-08-14 09:34:03', 1),
+(66, 1, '2017-08-20 10:12:47_38302175', '2017-08-20 10:12:47', 1),
+(68, 2, '2017-08-31 11:42:41_1505280533', '2017-08-31 11:43:05', 5),
+(69, 3, '2017-08-31 11:42:41_1505280533', '2017-08-31 11:43:15', 3),
+(70, 4, '2017-11-01 09:00:19_1528458195', '2017-11-01 09:00:19', 1);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

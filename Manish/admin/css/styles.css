@@ -1,0 +1,86 @@
+.noPadding{
+	padding:0;
+}
+body{
+	background:#e6e6e6;
+}
+.container{
+	background:white;
+}
+.single-item{
+	margin-top:10px;
+	margin-bottom:20px;
+	height:320px;
+	border:1px solid silver;
+	box-shadow:0 0 5px gray;
+}
+.top{
+	background:maroon;
+	height:200px;
+}
+.top img{
+	height:100%;
+	width:100%;
+}
+.bottom{
+	height:100px;
+}
+.item-title{
+	color:maroon;
+	margin-top:0;
+	margin-left:10px;
+	padding-top:10px;
+}
+.cutted-price{
+	font-size:18px;
+	margin-right:20px;
+}
+.discounted-price{
+	font-size:18px;
+	margin-right:20px;
+	color:maroon;
+	font-style:italic;
+}
+.pp-title{
+	font-size:40px;
+	
+}
+.pp-desc-head{
+	font-size:30px;
+	text-decoration:underline;
+}
+.pp-desc-details{
+	
+}
+.pp-desc-details p{
+	font-size:20px;
+}
+.pp-desc-details ul{
+	margin-top:30px;
+}
+.pp-desc-details ul li{
+	font-size:20px;
+	margin-top:10px;
+}
+.btn{
+	border-radius:0px;
+}
+.list-group{
+	
+}
+.list-group .list-group-item{
+	font-size:22px;
+	border-right:0;
+	border-left:0;
+	padding:45px 0px 45px 0px;
+	border-radius:0px;
+}
+.list-group .list-group-item:hover{
+	background:#e6ffee;
+}
+.panel{
+	border-radius:0px;
+}
+.form-control{
+	border-radius:0px;
+}
